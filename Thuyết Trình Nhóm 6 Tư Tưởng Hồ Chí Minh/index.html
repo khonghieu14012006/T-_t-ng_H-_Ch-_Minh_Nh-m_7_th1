@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Tư tưởng Hồ Chí Minh về Nhà nước pháp quyền & Ý thức kỷ cương của Sinh viên (50 Slides)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Canvas pháo hoa Confetti (Đã bổ sung để hết lỗi crash JS) -->
+<canvas id="confettiCanvas"></canvas>
+
+<div class="master-deck">
+    <!-- Progress Indicator -->
+    <div class="timeline-bar">
+        <div class="timeline-fill" id="timelineFill"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="deck-top">
+        <div class="deck-badge">ĐẠI HỌC HÀNG HẢI VIỆT NAM | TƯ TƯỞNG HỒ CHÍ MINH</div>
+    </header>
+
+    <!-- 50 Slides Viewport -->
+    <div class="stage-slides">
+
+        <!-- ==================================================== -->
+        <!-- PHẦN I: MỞ ĐẦU & NỀN TẢNG LÝ LUẬN CỐT LÕI (SLIDES 1-16) -->
+        <!-- ==================================================== -->
+
+        <!-- SLIDE 1 -->
+        <div class="slide-pane active" id="slide-1">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">🏛️ CHUYÊN ĐỀ LÝ LUẬN & THỰC TIỄN</span>
+                    <h1 class="hero-title">TƯ TƯỞNG HỒ CHÍ MINH VỀ NHÀ NƯỚC PHÁP QUYỀN</h1>
+                    <p class="sub-lead">Thượng tôn pháp luật và Ý thức chấp hành kỷ cương của sinh viên hiện nay</p>
+                    <div class="quote-banner">
+                        "Bảy xin Hiến pháp ban hành<br>Trăm điều phải có thần linh pháp quyền."
+                        <div style="font-size: 0.85rem; margin-top: 6px; font-weight: 700; color: var(--accent);">— Nguyễn Ái Quốc (Việt Nam yêu cầu ca, 1919)</div>
+                    </div>
+                    <div style="font-size: 0.94rem; color: #695F56; margin-top: 16px; font-weight: 600;">
+                        Thực hiện: Nhóm 7 - TH1
+                    </div>
+                </div>
+                <div class="museum-frame">
+                    <img src="anhdepnhat.png" alt="Chủ tịch Hồ Chí Minh 1946">
+                    <div class="caption">Chủ tịch Hồ Chí Minh (1946) — Người đặt nền móng kiến tạo Nhà nước dân chủ pháp quyền Việt Nam</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 2: GIỚI THIỆU THÀNH VIÊN -->
+        <div class="slide-pane team-slide" id="slide-2">
+            <div class="layout-grid-full team-content">
+                <span class="section-tag">GIỚI THIỆU NHÓM</span>
+                <h2 class="pane-title">THÀNH VIÊN &amp; PHÂN CÔNG CÔNG VIỆC</h2>
+                <p class="sub-lead">Danh sách thành viên và nhiệm vụ thực hiện bài thuyết trình.</p>
+
+                <div class="team-table-wrap">
+                    <table class="team-table">
+                        <thead>
+                            <tr>
+                                <th>Mã SV</th>
+                                <th>Họ tên</th>
+                                <th>Công việc</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>107957</td><td>Đặng Tuấn Hùng</td><td><span class="team-task task-present">Thuyết trình</span></td></tr>
+                            <tr><td>111015</td><td>Phạm Minh Tú</td><td><span class="team-task task-content">Tìm nội dung</span></td></tr>
+                            <tr><td>107715</td><td>Khổng Trung Hiếu</td><td><span class="team-task task-design">Thiết kế slide</span></td></tr>
+                            <tr><td>106147</td><td>Lê Đức Anh</td><td><span class="team-task task-present">Thuyết trình</span></td></tr>
+                            <tr><td>107136</td><td>Lê Hải Đăng</td><td><span class="team-task task-design">Thiết kế slide</span></td></tr>
+                            <tr><td>107663</td><td>Trần Thu Hiền</td><td><span class="team-task task-content">Tìm nội dung</span></td></tr>
+                            <tr><td>110250</td><td>Vũ Tiến Thăng</td><td><span class="team-task task-present">Thuyết trình</span></td></tr>
+                            <tr><td>109907</td><td>Phạm Minh Nam Phương</td><td><span class="team-task task-content">Tìm nội dung</span></td></tr>
+                            <tr><td>106223</td><td>Nguyễn Lê Việt Anh</td><td><span class="team-task task-design">Thiết kế slide</span></td></tr>
+                            <tr><td>106207</td><td>Nguyễn Hải Anh</td><td><span class="team-task task-content">Tìm nội dung</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 3 -->
+        <div class="slide-pane" id="slide-3">
+            <div class="layout-grid-full">
+                <span class="section-tag">TỔNG QUAN CHUYÊN ĐỀ</span>
+                <h2 class="pane-title">CẤU TRÚC ĐỀ TÀI</h2>
+                <p class="sub-lead">Hệ thống hóa toàn diện từ cội nguồn triết học, lập hiến đến ứng dụng hành vi thế hệ trẻ.</p>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Phần 1: Nền tảng Lý luận & Lập hiến</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Cội nguồn truyền thống dân tộc, tinh hoa Pháp quyền phương Tây, Mác - Lênin; bước ngoặt bản Yêu sách 1919; Tổng tuyển cử 1946 và bản chất Nhà nước của dân, do dân, vì dân.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Phần 2: Pháp quyền Nhân nghĩa & Kiểm soát Quyền lực</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Sự kết hợp biện chứng giữa Pháp trị và Đức trị; nguyên tắc không vùng cấm qua đại án Trần Dụ Châu (1950); cơ chế phòng ngừa giặc nội xâm và Nghị quyết 27-NQ/TW.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Phần 3: Kỷ cương Giảng đường & Không gian số Gen Z</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Thực trạng nhận thức: Liêm chính học thuật, chống đạo văn, trách nhiệm sử dụng AI, văn hóa an toàn giao thông và thượng tôn Luật An ninh mạng.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Phần 4: Trắc nghiệm Tương tác Phản biện</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            08 câu hỏi tình huống thực tế nhằm kiểm tra, phản biện và khắc sâu năng lực đạo đức công dân của người học.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 4 -->
+        <div class="slide-pane" id="slide-4">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN I: NỀN TẢNG HÌNH THÀNH</span>
+                <h2 class="pane-title">NGUỒN GỐC 1: TRUYỀN THỐNG DÂN TỘC</h2>
+                <p class="sub-lead">Hồ Chí Minh đã kế thừa và nâng tầm tư tưởng chính trị ngàn năm dựng nước và giữ nước.</p>
+                <ul class="lux-list">
+                    <li><strong>Triết lý "Lấy dân làm gốc":</strong> Tiếp thu trọn vẹn tư tưởng <em>"Khoan thư sức dân làm kế sâu rễ bền gốc"</em> của Hưng Đạo Đại vương Trần Quốc Tuấn và <em>"Việc nhân nghĩa cốt ở yên dân"</em> của Bình Ngô đại cáo (Nguyễn Trãi).</li>
+                    <li><strong>Tinh hoa Pháp luật cổ đại:</strong> Kế thừa tư tưởng trị quốc công minh từ <em>Bộ luật Hồng Đức (Quốc triều hình luật)</em> thời Hậu Lê — đỉnh cao của kỹ thuật lập pháp phương Đông.</li>
+                    <li><strong>Sự phát triển vượt bậc của Bác:</strong> Bác khẳng định <strong>Nhân dân là chủ nhân chân chính của đất nước</strong>; pháp luật là công cụ bảo vệ dân quyền chứ không phải công cụ áp bức.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 5 -->
+        <div class="slide-pane" id="slide-5">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN I: NỀN TẢNG HÌNH THÀNH</span>
+                    <h2 class="pane-title">NGUỒN GỐC 2: TIẾP THU GIÁ TRỊ PHƯƠNG TÂY</h2>
+                    <ul class="lux-list">
+                        <li><strong>Tư tưởng Lập hiến & Quyền con người:</strong> Bác nghiên cứu sâu sắc thuyết <em>Tam quyền phân lập</em> của Montesquieu, thuyết <em>Khế ước xã hội</em> của J.J. Rousseau.</li>
+                        <li><strong>Kế thừa 2 bản Tuyên ngôn bất hủ:</strong> Trích dẫn trực tiếp <em>Tuyên ngôn Độc lập Mỹ 1776</em> và <em>Tuyên ngôn Nhân quyền Pháp 1789</em> trong Tuyên ngôn Độc lập 2/9/1945.</li>
+                        <li><strong>Tư duy pháp lý tiến bộ:</strong> Tự do của mỗi cá nhân phải được bảo đảm bằng một bản Hiến pháp dân chủ và hệ thống tòa án công bằng.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <img src="anhDep.jpg" alt="Nguyễn Ái Quốc tại Pháp 1920">
+                    <div class="caption">Nguyễn Ái Quốc tại Paris (1920) — giai đoạn tiếp thu trực tiếp các giá trị dân chủ lập hiến</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 6 -->
+        <div class="slide-pane" id="slide-6">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN I: NỀN TẢNG HÌNH THÀNH</span>
+                <h2 class="pane-title">NGUỒN GỐC 3: NỀN TẢNG CHỦ NGHĨA MÁC - LÊNIN</h2>
+                <p class="sub-lead">Hệ tư tưởng cách mạng khoa học giúp Bác xây dựng kiểu nhà nước chưa từng có trong lịch sử dân tộc.</p>
+                <ul class="lux-list">
+                    <li><strong>Bản chất giai cấp công nhân gắn liền tính nhân dân:</strong> Nhà nước là công cụ quản lý chính trị của khối liên minh Công - Nông - Trí thức dưới sự lãnh đạo của Đảng Cộng sản.</li>
+                    <li><strong>Khắc phục hạn chế của Nhà nước tư sản:</strong> Hồ Chí Minh xác lập một Nhà nước phục vụ quyền lợi của đại đa số nhân dân cần lao.</li>
+                    <li><strong>Mục tiêu chính trị tối thượng:</strong> Xây dựng nhà nước pháp quyền là điều kiện tiên quyết để giải phóng triệt để dân tộc và con người.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 7 -->
+        <div class="slide-pane" id="slide-7">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN I: CỘT MỐC LỊCH SỬ</span>
+                    <h2 class="pane-title">1919: TƯ TƯỞNG "THẦN LINH PHÁP QUYỀN" RA ĐỜI</h2>
+                    <ul class="lux-list">
+                        <li><strong>Bản Yêu sách của nhân dân An Nam (Versailles 1919):</strong> Nguyễn Ái Quốc gửi 8 điều yêu sách đòi quyền bình đẳng pháp lý căn bản cho người dân Đông Dương.</li>
+                        <li><strong>Đòi hỏi xóa bỏ "Cai trị bằng sắc lệnh":</strong> Yêu cầu bãi bỏ chế độ cai trị độc đoán bằng sắc lệnh tùy tiện, thiết lập thể chế quản lý bằng pháp luật.</li>
+                    </ul>
+                    <div class="quote-banner">
+                        "Cải cách nền pháp lý ở Đông Dương bằng cách làm cho người bản xứ cũng được quyền hưởng những bảo đảm về mặt pháp luật như người Âu châu..."
+                    </div>
+                </div>
+                <div class="museum-frame">
+                    <img src="anhDep3.jpg" alt="Bác Hồ và chữ ký văn bản">
+                    <div class="caption">Bác Hồ ký trên các sắc lệnh nền móng đầu tiên của Chính phủ cách mạng</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 8 -->
+        <div class="slide-pane" id="slide-8">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN I: KHAI SINH NỀN CỘNG HÒA</span>
+                    <h2 class="pane-title">TUYÊN NGÔN ĐỘC LẬP 2/9/1945 — VĂN KIỆN PHÁP LÝ TỐI CAO</h2>
+                    <ul class="lux-list">
+                        <li><strong>Khai sinh nước Việt Nam Dân chủ Cộng hòa:</strong> Mở ra kỷ nguyên độc lập dân tộc gắn liền tự do công dân.</li>
+                        <li><strong>Thiết lập cơ sở quyền con người:</strong> Bác khẳng định quyền sống, quyền tự do và mưu cầu hạnh phúc là quyền thiêng liêng không ai có thể xâm phạm.</li>
+                        <li><strong>Tuyên bố với trường quốc tế:</strong> Nước Việt Nam đã trở thành một nước tự do, độc lập có đầy đủ tư cách pháp nhân.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Ba_Dinh_Square_September_2nd%2C_1945.jpg" alt="Quảng trường Ba Đình 2/9/1945">
+                    <div class="caption">Quảng trường Ba Đình lịch sử ngày 02/09/1945 — Giờ phút khai sinh nền pháp quyền dân chủ mới</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 9 -->
+        <div class="slide-pane" id="slide-9">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN I: TÍNH CHÍNH DANH LẬP PHÁP</span>
+                    <h2 class="pane-title">TỔNG TUYỂN CỬ 6/1/1946: TRAO QUYỀN LỰC CHO DÂN</h2>
+                    <ul class="lux-list">
+                        <li><strong>Ưu tiên số một của Chính phủ lâm thời:</strong> Chỉ 1 ngày sau Độc lập (3/9/1945), Bác đặt nhiệm vụ tổ chức Tổng tuyển cử bầu Quốc hội là ưu tiên hàng đầu.</li>
+                        <li><strong>Cuộc bầu cử phổ thông đầu phiếu đầu tiên:</strong> Hơn 89% cử tri toàn quốc bầu ra 333 đại biểu Quốc hội khóa I.</li>
+                        <li><strong>Giá trị pháp lý quốc tế (De Jure):</strong> Khẳng định Nhà nước Việt Nam là chính quyền hợp hiến, hợp pháp trước toàn thế giới.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <img src="anhDep3.jpg" alt="Không khí chuẩn bị Tổng tuyển cử 1946">
+                    <div class="caption">Nhân dân thủ đô Hà Nội nô nức chuẩn bị Tổng tuyển cử Quốc hội khóa I ngày 06/01/1946</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 10 -->
+        <div class="slide-pane" id="slide-10">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN I: ĐỈNH CAO LẬP HIẾN</span>
+                    <h2 class="pane-title">HIẾN PHÁP NĂM 1946: BẢN HIẾN PHÁP DÂN CHỦ ĐẦU TIÊN</h2>
+                    <ul class="lux-list">
+                        <li><strong>Do Chủ tịch Hồ Chí Minh làm Trưởng ban soạn thảo:</strong> Quốc hội khóa I thông qua ngày 9/11/1946 tại Hà Nội.</li>
+                        <li><strong>Tuyên ngôn về chủ quyền nhân dân:</strong> Điều 1: <em>"Tất cả quyền bính trong nước là của toàn thể nhân dân Việt Nam, không phân biệt nòi giống, gái trai, giàu nghèo, giai cấp, tôn giáo."</em></li>
+                        <li><strong>Bảo đảm quyền tự do cơ bản:</strong> Tự do ngôn luận, xuất bản, tín ngưỡng, cư trú và quyền tư hữu hợp pháp.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <img src="anhDep6.jpg" alt="Hiến pháp 1946">
+                    <div class="caption">Hiến pháp năm 1946 - Bản hiến pháp dân chủ đầu tiên</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 11 -->
+        <div class="slide-pane" id="slide-11">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN I: BẢN CHẤT NHÀ NƯỚC</span>
+                <h2 class="pane-title">NHÀ NƯỚC "CỦA DÂN" — CHỦ THỂ TỐI CAO CỦA QUYỀN LỰC</h2>
+                <p class="sub-lead">Nhân dân không còn là thân phận nô lệ mà chính thức là người chủ đất nước.</p>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Quyền làm chủ toàn vẹn</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Mọi quyền lực nhà nước đều bắt nguồn từ nhân dân và do nhân dân ủy thác cho các cơ quan nhà nước thông qua việc bầu cử dân chủ. Cán bộ không được tự nhận mình là người ban phát quyền tự do.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Nghĩa vụ đi đôi với quyền lợi</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Người chủ đất nước phải có trách nhiệm cao nhất: Chấp hành nghiêm chỉnh pháp luật, đóng thuế đầy đủ, sẵn sàng tòng quân bảo vệ Tổ quốc và giữ gìn trật tự an ninh xã hội.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 12 -->
+        <div class="slide-pane" id="slide-12">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN I: BẢN CHẤT NHÀ NƯỚC</span>
+                    <h2 class="pane-title">NHÀ NƯỚC "DO DÂN" VÀ "VÌ DÂN"</h2>
+                    <ul class="lux-list">
+                        <li><strong>Nhà nước Do Dân:</strong> Dân bầu ra cơ quan lập pháp, giám sát và có quyền bãi miễn những đại biểu thoái hóa biến chất.</li>
+                        <li><strong>Nhà nước Vì Dân:</strong> Mọi chính sách phát triển đều nhằm phục vụ ấm no, hạnh phúc của dân; điều gì có lợi cho dân thì hết sức làm, điều gì có hại thì hết sức tránh.</li>
+                    </ul>
+                    <div class="quote-banner">
+                        "Nếu nước độc lập mà dân không hưởng hạnh phúc tự do, thì độc lập cũng chẳng có nghĩa lý gì."
+                    </div>
+                </div>
+                <div class="museum-frame">
+                    <img src="anhDep4.jpg" alt="Bác Hồ làm việc">
+                    <div class="caption">Bác Hồ gần dân — trọn đời phụng sự nhân dân và Tổ quốc</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 13 -->
+        <div class="slide-pane" id="slide-13">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN I: ĐẠO ĐỨC CÔNG VỤ</span>
+                <h2 class="pane-title">CÁN BỘ CÔNG QUYỀN LÀ "CÔNG BỘC", KHÔNG LÀM "QUAN CÁCH MẠNG"</h2>
+                <p class="sub-lead">Tư tưởng triệt tiêu thói hách dịch, cửa quyền ngay từ những ngày đầu lập nước.</p>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Cán bộ là người đầy tớ trung thành</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Bác dạy: <em>"Cán bộ từ Chủ tịch nước trở xuống đều là người đầy tớ trung thành của nhân dân, chứ không phải là quan cách mạng để đè đầu cưỡi cổ dân"</em>.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">6 Căn bệnh cán bộ cần tránh</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Bác viết thư cảnh báo nghiêm khắc 6 căn bệnh: <strong>Trái phép, Cậy thế, Hủ hóa, Tư túng, Chia rẽ, Kiêu ngạo</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 14 -->
+        <div class="slide-pane" id="slide-14">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN I: TỔ CHỨC BỘ MÁY</span>
+                <h2 class="pane-title">QUYỀN LỰC THỐNG NHẤT, PHÂN CÔNG VÀ PHỐI HỢP CHẶT CHẼ</h2>
+                <p class="sub-lead">Mô hình phân định quyền lực độc đáo phù hợp điều kiện cách mạng Việt Nam.</p>
+                <ul class="lux-list">
+                    <li><strong>Quốc hội là cơ quan quyền lực cao nhất:</strong> Cơ quan duy nhất có quyền lập hiến và lập pháp, quyết định các chính sách quốc gia trọng đại.</li>
+                    <li><strong>Chính phủ là cơ quan hành chính cao nhất:</strong> Chấp hành đường lối của Quốc hội, quản lý xã hội bằng Hiến pháp và pháp luật hiệu lực, hiệu quả.</li>
+                    <li><strong>Tòa án thực hiện quyền tư pháp độc lập:</strong> Xét xử nghiêm minh, bảo vệ công lý; thẩm phán khi xét xử chỉ tuân theo pháp luật.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 15 -->
+        <div class="slide-pane" id="slide-15">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN I: THỰC THI SẮC LỆNH</span>
+                    <h2 class="pane-title">BAN HÀNH SẮC LỆNH TRONG TÌNH TRẠNG KHẨN CẤP</h2>
+                    <ul class="lux-list">
+                        <li><strong>Kỹ trị và Linh hoạt:</strong> Trong tình thế "ngàn cân treo sợi tóc" (1945 - 1946), Bác ký hàng trăm sắc lệnh giải quyết giặc đói, giặc dốt và giặc ngoại xâm.</li>
+                        <li><strong>Thượng tôn nguyên tắc pháp lý:</strong> Dù dùng sắc lệnh của Chủ tịch nước, Bác luôn giữ nguyên tắc hợp hiến và báo cáo công khai trước Quốc hội.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Appeal_for_National_Resistance_by_Ho-chi-Minh_on_19_Dec_1946.jpg" alt="Lời kêu gọi Toàn quốc kháng chiến">
+                    <div class="caption">Lời kêu gọi Toàn quốc kháng chiến (19/12/1946) — mệnh lệnh thiêng liêng bảo vệ Tổ quốc</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 16 -->
+        <div class="slide-pane" id="slide-16">
+            <div class="layout-grid-full">
+                <span class="section-tag">TỔNG KẾT PHẦN I</span>
+                <h2 class="pane-title">BẢN CHẤT CỐT LÕI NHÀ NƯỚC PHÁP QUYỀN HỒ CHÍ MINH</h2>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">✦ Tính Pháp quyền Dân chủ</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Xây dựng nhà nước hợp hiến, hợp pháp; đặt nhân dân ở vị trí chủ nhân tối cao của quyền lực; mọi công dân đều bình đẳng trước pháp luật, không ai được đứng trên luật pháp.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">✦ Mục tiêu Phụng sự Con người</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Pháp luật không nhằm mục đích áp bức hay phục vụ tư lợi bè phái, mà là công cụ bảo đảm quyền con người, chăm lo đời sống vật chất và tinh thần cho người dân.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================================================== -->
+        <!-- PHẦN II: PHÁP QUYỀN NHÂN NGHĨA & BÀI HỌC LỊCH SỬ (SLIDES 17-29) -->
+        <!-- ==================================================== -->
+
+        <!-- SLIDE 17 -->
+        <div class="slide-pane" id="slide-17">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: PHÁP QUYỀN NHÂN NGHĨA</span>
+                <h2 class="pane-title">KẾT HỢP BIỆN CHỨNG: "PHÁP TRỊ" VÀ "ĐỨC TRỊ"</h2>
+                <p class="sub-lead">Nét đặc sắc của Hồ Chí Minh: Trị quốc bằng Luật pháp và Cảm hóa bằng Lương tri.</p>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">⚖️ Pháp trị nghiêm minh</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Pháp luật phải nghiêm minh, công bằng, không có ngoại lệ để răn đe và bảo vệ kỷ cương cộng đồng.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">❤️ Đức trị nhân ái</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Pháp luật là Đạo đức được thể chế hóa. Mục đích cao nhất của tư pháp là thức tỉnh tính thiện, giáo dục con người trở lại làm lương dân.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 18 -->
+        <div class="slide-pane" id="slide-18">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: PHÁP QUYỀN NHÂN NGHĨA</span>
+                <h2 class="pane-title">QUAN ĐIỂM: VẤN ĐỀ TƯ PHÁP LÀ "Ở ĐỜI VÀ LÀM NGƯỜI"</h2>
+                <div class="quote-banner">
+                    "Nghĩ cho cùng, vấn đề tư pháp, cũng như mọi vấn đề khác trong một nước độc lập dân chủ, là vấn đề ở đời và làm người. Ở đời và làm người là phải thương nước, thương dân, thương nhân loại bị áp bức."
+                </div>
+                <ul class="lux-list" style="margin-top: 15px;">
+                    <li><strong>Công lý phải có trái tim:</strong> Cán bộ xét xử không thể áp dụng luật pháp như cỗ máy vô cảm; phải thấu hiểu nguyên nhân xã hội, lắng nghe tiếng lòng nhân dân.</li>
+                    <li><strong>Thực thi công lý vì hòa hợp dân tộc:</strong> Thức tỉnh những người lầm đường lạc lối quay về với chính nghĩa cách mạng.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 19 -->
+        <div class="slide-pane" id="slide-19">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN II: NGUYÊN TẮC KHÔNG VÙNG CẤM</span>
+                    <h2 class="pane-title">VỤ ÁN TRẦN DỤ CHÂU (1950): "THIẾT DIỆN VÔ TƯ"</h2>
+                    <ul class="lux-list">
+                        <li><strong>Đại án tham nhũng nơi chiến khu:</strong> Cục trưởng Cục Quân nhu Trần Dụ Châu thoái hóa, nhận hối lộ, xa hoa lãng phí giữa lúc bộ đội thiếu ăn thiếu mặc.</li>
+                        <li><strong>Bác Hồ kiên quyết bác đơn xin ân xá:</strong> Bác đau đớn đến mất ngủ nhưng kiên quyết bảo vệ phép nước, giữ vững niềm tin của nhân dân.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <img src="anhDep5.jpg" alt="Vụ án Trần Dụ Châu">
+                    <div class="caption">Vụ án Trần Dụ Châu - 1950: Bản án nghiêm khắc bảo vệ kỷ cương</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 20 -->
+        <div class="slide-pane" id="slide-20">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: BÀI HỌC VỤ ÁN TRẦN DỤ CHÂU</span>
+                <h2 class="pane-title">BÀI HỌC LỊCH SỬ: "CẮT BỎ CÀNH SÂU ĐỂ CỨU CẢ RỪNG CÂY"</h2>
+                <div class="quote-banner">
+                    "Phải cắt bỏ một cành cây sâu mọt để cứu lấy cả cánh rừng. Với một người thoái hóa như vậy thì không thể tha thứ được."
+                </div>
+                <div class="duo-cards" style="margin-top: 15px;">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Không bị bẻ cong bởi công trạng</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Công trạng quá khứ không thể dùng làm "tấm khiên" miễn trừ trách nhiệm trước tội ác phản bội nhân dân.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Bảo vệ sự trong sạch của chế độ</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Bản án thức tỉnh toàn thể bộ máy: Kỷ cương phép nước là bất khả xâm phạm.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 21 -->
+        <div class="slide-pane" id="slide-21">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: KIỂM SOÁT QUYỀN LỰC</span>
+                <h2 class="pane-title">NHẬN DIỆN "GIẶC NỘI XÂM": THAM Ô, LÃNG PHÍ, QUAN LIÊU</h2>
+                <p class="sub-lead">Bác coi ba tệ nạn này là kẻ thù nguy hiểm hơn cả súng đạn thực dân ngoại xâm.</p>
+                <ul class="lux-list">
+                    <li><strong>Tham ô là hành vi trộm cướp:</strong> Tham ô công quỹ là ăn cắp mồ hôi nước mắt của đồng bào.</li>
+                    <li><strong>Lãng phí còn nguy hiểm hơn tham ô:</strong> Lãng phí khiến của cải xã hội tiêu tán, công sức toàn dân trôi sông trôi biển.</li>
+                    <li><strong>Quan liêu là nguồn gốc đẻ ra tham ô:</strong> Cán bộ xa dân, ngồi bàn giấy ra chỉ thị tạo kẽ hở cho cấp dưới lộng hành.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 22 -->
+        <div class="slide-pane" id="slide-22">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: KIỂM SOÁT QUYỀN LỰC</span>
+                <h2 class="pane-title">DỰA VÀO NHÂN DÂN ĐỂ GIÁM SÁT BỘ MÁY</h2>
+                <p class="sub-lead">Nhân dân chính là "tai mắt", là bức tường thành vững chắc nhất kiểm soát sự tha hóa quyền lực.</p>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Tai mắt của hàng triệu người dân</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Bác khẳng định: <em>"Cán bộ làm việc tốt hay xấu, nhân dân đều biết hết. Muốn kiểm soát cán bộ tốt nhất thì phải dựa vào tai mắt của quần chúng."</em>
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Dân biết, dân bàn, dân làm, dân kiểm tra</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Mọi hoạt động cơ quan nhà nước phải công khai, minh bạch; người dân có quyền khiếu nại, tố cáo hành vi tiêu cực.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 23 -->
+        <div class="slide-pane" id="slide-23">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN II: VĂN HÓA NÊU GƯƠNG</span>
+                    <h2 class="pane-title">"CẦN, KIỆM, LIÊM, CHÍNH, CHÍ CÔNG VÔ TƯ"</h2>
+                    <ul class="lux-list">
+                        <li><strong>Cần:</strong> Siêng năng, lao động có kế hoạch, năng suất cao.</li>
+                        <li><strong>Kiệm:</strong> Tiết kiệm thời gian, tiền bạc của nhân dân; không hoang phí xa xỉ.</li>
+                        <li><strong>Liêm:</strong> Trong sạch, không tham lam danh lợi, chức quyền.</li>
+                        <li><strong>Chính:</strong> Ngay thẳng, thấy đúng thì bảo vệ, thấy sai thì quyết liệt phê phán.</li>
+                        <li><strong>Chí công vô tư:</strong> Đặt lợi ích của Tổ quốc và nhân dân lên trên hết.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Ho-chi-Minh_with_children_%2811%29.jpg" alt="Bác Hồ sống thanh bạch">
+                    <div class="caption">Phong cách sống giản dị, cần kiệm, liêm khiết của Chủ tịch Hồ Chí Minh là tấm gương sáng ngời</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 24 -->
+        <div class="slide-pane" id="slide-24">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: TUYÊN TRUYỀN PHÁP LUẬT</span>
+                <h2 class="pane-title">NÂNG CAO DÂN TRÍ VÀ Ý THỨC PHÁP LUẬT CHO DÂN</h2>
+                <p class="sub-lead">Một nhà nước pháp quyền vững mạnh đòi hỏi một nền dân trí pháp luật tương xứng.</p>
+                <ul class="lux-list">
+                    <li><strong>Diệt giặc dốt để xây dựng nhà nước:</strong> Phát động <em>Bình dân học vụ</em>; vì dân có biết chữ thì mới đọc được luật và hiểu quyền công dân.</li>
+                    <li><strong>Luật pháp phải viết ngắn gọn, dễ hiểu:</strong> Soạn thảo văn bản luật trong sáng, bình dân để người nông dân cũng hiểu và thực hiện đúng.</li>
+                    <li><strong>Đưa giáo dục pháp luật vào trường học:</strong> Rèn luyện cho thế hệ trẻ thói quen thượng tôn pháp luật từ sớm.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 25 -->
+        <div class="slide-pane" id="slide-25">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: VẬN DỤNG THỜI ĐẠI MỚI</span>
+                <h2 class="pane-title">NGHỊ QUYẾT 27-NQ/TW (KHÓA XIII) — BƯỚC PHÁT TRIỂN MỚI</h2>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Đặc trưng cốt lõi</h3>
+                        <ul style="padding-left: 18px; font-size: 0.92rem; line-height: 1.6; color: var(--text-muted);">
+                            <li>Nhà nước của nhân dân, do nhân dân, vì nhân dân.</li>
+                            <li>Thượng tôn Hiến pháp và pháp luật.</li>
+                            <li>Tôn trọng, bảo đảm quyền con người, quyền công dân.</li>
+                            <li>Kiểm soát hiệu quả quyền lực nhà nước.</li>
+                        </ul>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Đột phá chiến lược</h3>
+                        <ul style="padding-left: 18px; font-size: 0.92rem; line-height: 1.6; color: var(--text-muted);">
+                            <li>Hoàn thiện hệ thống pháp luật đồng bộ, minh bạch.</li>
+                            <li>Đổi mới bộ máy nhà nước tinh gọn, hiệu lực.</li>
+                            <li>Cải cách tư pháp mạnh mẽ, lấy Tòa án làm trung tâm.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 26 -->
+        <div class="slide-pane" id="slide-26">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: VẬN DỤNG THỜI ĐẠI MỚI</span>
+                <h2 class="pane-title">CÔNG CUỘC CHỐNG THAM NHŨNG VÀ "ĐỐT LÒ" HIỆN NAY</h2>
+                <ul class="lux-list">
+                    <li><strong>Tinh thần "Không có vùng cấm, không có ngoại lệ":</strong> Hàng loạt cán bộ suy thoái đều bị khởi tố và xét xử công khai trước Tòa án.</li>
+                    <li><strong>Xây dựng cơ chế phòng chống 4 không:</strong> Làm cho cán bộ <em>"không thể, không dám, không muốn và không cần tham nhũng"</em>.</li>
+                    <li><strong>Củng cố niềm tin vững chắc:</strong> Khẳng định tính nghiêm minh tuyệt đối của kỷ cương phép nước.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 27 -->
+        <div class="slide-pane" id="slide-27">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: VẬN DỤNG THỜI ĐẠI MỚI</span>
+                <h2 class="pane-title">CẢI CÁCH TƯ PHÁP & XÂY DỰNG TÒA ÁN ĐIỆN TỬ</h2>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Công khai bản án trực tuyến</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Hàng triệu bản án được số hóa trên cổng thông tin Tòa án tối cao, giúp người dân giám sát chất lượng xét xử.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Xét xử trực tuyến hiện đại</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Tổ chức các phiên tòa trực tuyến kết nối các điểm cầu trên toàn quốc, tiết kiệm chi phí và tăng tính minh bạch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 28 -->
+        <div class="slide-pane" id="slide-28">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN II: BẢO VỆ NHÂN QUYỀN</span>
+                <h2 class="pane-title">CAM KẾT QUỐC TẾ & BẢO VỆ QUYỀN CON NGƯỜI</h2>
+                <ul class="lux-list">
+                    <li><strong>Thành viên Hội đồng Nhân quyền LHQ:</strong> Việt Nam thể hiện vai trò tích cực thúc đẩy và bảo vệ quyền con người toàn cầu.</li>
+                    <li><strong>Nội luật hóa các công ước quốc tế:</strong> Ký kết và thực thi nghiêm túc các công ước về quyền dân sự, quyền chính trị, quyền trẻ em.</li>
+                    <li><strong>Lấy hạnh phúc của nhân dân làm thước đo:</strong> Phát triển kinh tế gắn liền bảo đảm an sinh xã hội.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 29 -->
+        <div class="slide-pane" id="slide-29">
+            <div class="layout-grid-full">
+                <span class="section-tag">TỔNG KẾT PHẦN II</span>
+                <h2 class="pane-title">CHÂN LÝ VĨNH HẰNG CỦA PHÁP QUYỀN NHÂN NGHĨA</h2>
+                <div class="quote-banner">
+                    "Kỷ cương là sinh mệnh của Nhà nước. Không có kỷ cương thì không có ổn định; không có sự nghiêm minh thì công lý chỉ là điều hão huyền."
+                </div>
+                <div class="duo-cards" style="margin-top: 15px;">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Nghiêm minh để tồn tại</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Quốc gia không có kỷ cương sẽ rơi vào tình trạng hỗn loạn và tiêu vong trước thử thách.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Nhân nghĩa để vững bền</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Luật pháp sinh ra để bảo vệ con người, là cội nguồn sức mạnh gắn kết hàng triệu đồng bào.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================================================== -->
+        <!-- PHẦN III: KỶ CƯƠNG GIẢNG ĐƯỜNG & ĐỜI SỐNG SINH VIÊN (SLIDES 30-41) -->
+        <!-- ==================================================== -->
+
+        <!-- SLIDE 30 -->
+        <div class="slide-pane" id="slide-30">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN III: KỶ CƯƠNG SINH VIÊN HIỆN NAY</span>
+                <h2 class="pane-title">SINH VIÊN VỚI VĂN HÓA THƯỢNG TÔN PHÁP LUẬT</h2>
+                <ul class="lux-list">
+                    <li><strong>Vượt bỏ tư duy đối phó:</strong> Tuân thủ pháp luật không phải vì sợ bị phạt hay trừ điểm rèn luyện, mà vì sự an toàn và phẩm giá của chính mình.</li>
+                    <li><strong>Giảng đường là thao trường pháp quyền:</strong> Quy chế đào tạo, quy định liêm chính khoa học là môi trường rèn giũa tác phong kỷ luật trước khi đi làm.</li>
+                    <li><strong>Thế hệ kiến tạo tương lai:</strong> Một thế hệ sinh viên biết tôn trọng kỷ cương sẽ xây dựng nên một quốc gia phồn vinh, văn minh.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 31 -->
+        <div class="slide-pane" id="slide-31">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN III: TƯ DUY TỰ DO</span>
+                    <h2 class="pane-title">TỰ DO ĐÍCH THỰC TRONG KHUÔN KHỔ PHÁP LUẬT</h2>
+                    <ul class="lux-list">
+                        <li><strong>Phân biệt Tự do và Tùy tiện:</strong> Tự do không phải thích gì làm nấy; tự do đích thực luôn có giới hạn bởi trách nhiệm với tha nhân.</li>
+                        <li><strong>Pháp luật bảo vệ tự do:</strong> Kỷ cương là chiếc lan can bảo vệ con người khỏi rơi xuống vực thẳm sai lầm.</li>
+                        <li><strong>Tôn trọng người khác:</strong> Ranh giới tự do của bạn kết thúc tại nơi quyền và danh dự của người khác bắt đầu.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <img src="anhDep7.jpg" alt="Sinh viên VMU">
+                    <div class="caption">Sinh viên Đại học Hàng hải Việt Nam vững vàng tiến tới tương lai</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 32 -->
+        <div class="slide-pane" id="slide-32">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN III: ĐIỂM SÁNG SINH VIÊN</span>
+                    <h2 class="pane-title">MẶT TÍCH CỰC: Ý THỨC VÀ TINH THẦN TRÁCH NHIỆM</h2>
+                    <ul class="lux-list">
+                        <li><strong>Chủ động tìm hiểu pháp luật:</strong> Chủ động tiếp cận Luật Lao động, Sở hữu trí tuệ để bảo vệ quyền lợi khi khởi nghiệp.</li>
+                        <li><strong>Hăng hái tình nguyện:</strong> Tham gia Chiến dịch Mùa hè xanh, Tiếp sức mùa thi, hiến máu nhân đạo và giữ gìn trật tự an toàn giao thông.</li>
+                        <li><strong>Nhân rộng Phiên tòa giả định:</strong> Hoạt động CLB học thuật pháp lý diễn ra sôi nổi tại nhiều trường đại học.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <img src="anhDep8.jpg" alt="Thanh niên sinh viên tình nguyện">
+                    <div class="caption">Thanh niên sinh viên dọn dẹp nghĩa trang anh hùng liệt sỹ</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 33 -->
+        <div class="slide-pane" id="slide-33">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN III: NHẬN DIỆN LỆCH CHUẨN</span>
+                <h2 class="pane-title">CĂN BỆNH "TẶC LƯỠI" & VI PHẠM KỶ CƯƠNG</h2>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Tại Giảng đường đại học</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Đi muộn, trốn tiết, nhờ điểm danh hộ; ỷ lại vào đồng đội khi làm việc nhóm; mang tài liệu vào phòng thi, sao chép bài tập.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Ngoài Đời sống xã hội</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Vượt đèn đỏ khi vắng bóng công an, không cài quai mũ bảo hiểm, xả rác bừa bãi; dính vào cờ bạc mạng hoặc vay tín dụng đen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 34 -->
+        <div class="slide-pane" id="slide-34">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN III: HÀNH ĐỘNG CỐT LÕI</span>
+                <h2 class="pane-title">LIÊM CHÍNH HỌC THUẬT: ĐẠO ĐỨC CỦA TRÍ THỨC</h2>
+                <ul class="lux-list">
+                    <li><strong>Tuyệt đối không gian lận thi cử:</strong> Điểm số trung thực quý giá hơn nhiều lần một tấm bằng gian dối.</li>
+                    <li><strong>Chống đạo văn (Plagiarism):</strong> Tôn trọng sở hữu trí tuệ; trích dẫn nguồn minh bạch trong báo cáo, đồ án và tiểu luận.</li>
+                    <li><strong>Nói không với chạy điểm, làm hộ bài:</strong> Kiên quyết từ chối các dịch vụ "viết thuê luận văn" hay mua bán chứng chỉ giả.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 35 -->
+        <div class="slide-pane" id="slide-35">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN III: KỶ NGUYÊN TRÍ TUỆ NHÂN TẠO</span>
+                <h2 class="pane-title">SỬ DỤNG TRÍ TUỆ NHÂN TẠO (AI) CÓ TRÁCH NHIỆM</h2>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">AI là trợ lý, không phải tác giả</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Dùng AI để gợi mở ý tưởng, tổng hợp tư liệu, rà soát ngữ pháp; không phó mặc hoàn toàn việc viết bài luận cho máy móc.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Minh bạch và chịu trách nhiệm</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Chủ động chú thích việc sử dụng AI; người học phải chịu trách nhiệm pháp lý và khoa học cao nhất về tính xác thực của sản phẩm.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 36 -->
+        <div class="slide-pane" id="slide-36">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN III: AN TOÀN GIAO THÔNG</span>
+                <h2 class="pane-title">VĂN HÓA GIAO THÔNG: THƯỚC ĐO Ý THỨC CÔNG DÂN</h2>
+                <ul class="lux-list">
+                    <li><strong>Cài quai mũ bảo hiểm đạt chuẩn:</strong> Đội mũ bảo hiểm vì sự sống của chính mình, không phải để đối phó công an.</li>
+                    <li><strong>Dừng đúng vạch kẻ đèn đỏ:</strong> Hình thành phản xạ tuân thủ tín hiệu giao thông ngay cả giữa đêm khuya vắng người.</li>
+                    <li><strong>Đã uống rượu bia - Không lái xe:</strong> Tuyệt đối không điều khiển phương tiện khi đã sử dụng đồ uống có cồn.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 37 -->
+        <div class="slide-pane" id="slide-37">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN III: AN NINH MẠNG</span>
+                <h2 class="pane-title">VĂN HÓA KHÔNG GIAN MẠNG & DẤU CHÂN SỐ</h2>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Tuân thủ Luật An ninh mạng</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Mọi cá nhân đều phải chịu trách nhiệm pháp lý trước các dòng trạng thái, hình ảnh đăng tải. Không có sự ẩn danh tuyệt đối trên Internet.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Bộ lọc kiểm chứng nguồn tin</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Kiểm chứng thông tin từ báo chí chính thống trước khi bấm Share; kiên quyết nói không với tin giả (fake news) và thuyết âm mưu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 38 -->
+        <div class="slide-pane" id="slide-38">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN III: ỨNG XỬ TRÊN MẠNG</span>
+                <h2 class="pane-title">NÓI KHÔNG VỚI BẠO LỰC MẠNG VÀ CÔNG KÍCH CÁ NHÂN</h2>
+                <ul class="lux-list">
+                    <li><strong>Từ chối "Ném đá hội đồng":</strong> Không a dua theo tâm lý đám đông, không tham gia bóc phốt xúc phạm danh dự người khác.</li>
+                    <li><strong>Văn hóa tranh biện văn minh:</strong> Dùng lý lẽ khoa học và lập luận logic để trao đổi; tuyệt đối không dùng ngôn từ xúc phạm thô tục.</li>
+                    <li><strong>Lan tỏa năng lượng tích cực:</strong> Tích cực chia sẻ câu chuyện nhân ái, truyền cảm hứng sống đẹp cho cộng đồng.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SLIDE 39 -->
+        <div class="slide-pane" id="slide-39">
+            <div class="layout-grid-duo">
+                <div>
+                    <span class="section-tag">PHẦN III: PHỐI HỢP GIẢNG ĐƯỜNG</span>
+                    <h2 class="pane-title">VAI TRÒ CỦA NHÀ TRƯỜNG & ĐOÀN - HỘI</h2>
+                    <ul class="lux-list">
+                        <li><strong>Đổi mới giảng dạy Pháp luật:</strong> Đưa môn Pháp luật đại cương và Tư tưởng Hồ Chí Minh thành những bài học tranh biện, án lệ sinh động.</li>
+                        <li><strong>Môi trường học thuật công tâm:</strong> Xử lý nghiêm minh vi phạm học thuật; đánh giá điểm rèn luyện khách quan, thực chất.</li>
+                        <li><strong>Đoàn - Hội đồng hành sáng tạo:</strong> Lan tỏa kiến thức pháp luật qua các video ngắn TikTok, infographic sinh động cho giới trẻ.</li>
+                    </ul>
+                </div>
+                <div class="museum-frame">
+                    <video class="video-1" src="video1.mp4" controls playsinline preload="metadata"></video>
+                    <div class="caption">Môi trường học tập tại Đại học Hàng hải Việt Nam</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 40 -->
+        <div class="slide-pane" id="slide-40">
+            <div class="layout-grid-full">
+                <span class="section-tag">PHẦN III: TỰ SOI TỰ SỬA</span>
+                <h2 class="pane-title">RÈN LUYỆN BẢN LĨNH CÔNG DÂN TỰ GIÁC NGAY HÔM NAY</h2>
+                <div class="duo-cards">
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Tự giác trong học tập</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Đi học đúng giờ, tắt chuông điện thoại, đọc trước bài ở nhà; không làm việc riêng trong giờ giảng.
+                        </p>
+                    </div>
+                    <div class="card-panel">
+                        <h3 style="color: var(--primary); margin-bottom: 8px;">Tự giác nơi công cộng</h3>
+                        <p style="font-size: 0.93rem; line-height: 1.6; color: var(--text-muted);">
+                            Xếp hàng khi mua sắm hoặc đi xe buýt; nhường ghế cho người già và phụ nữ mang thai; giữ gìn vệ sinh môi trường.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 41 -->
+        <div class="slide-pane" id="slide-41">
+            <div class="layout-grid-full" style="text-align: center;">
+                <span class="section-tag" style="margin: 0 auto 15px auto;">KẾT LUẬN & THÔNG ĐIỆP</span>
+                <h1 class="hero-title" style="font-size: clamp(1.8rem, 3.5vw, 2.45rem);">KỶ CƯƠNG HÔM NAY — VỮNG BỀN NGÀY MAI</h1>
+                <div class="quote-banner" style="max-width: 950px; margin: 25px auto; text-align: left; font-size: 1.12rem; line-height: 1.85;">
+                    "Tư tưởng Hồ Chí Minh về Nhà nước pháp quyền không phải là lý thuyết trừu tượng nằm im trên trang giấy, mà chính là kim chỉ nam định hướng cho từng bước đi của sinh viên: Từ sự trung thực trong từng bài thi, thái độ dừng xe trước vạch đỏ cho đến nhân cách tử tế trên không gian số."
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================================================== -->
+        <!-- PHẦN IV: CÁC SLIDE TRẮC NGHIỆM TƯƠNG TÁC (SLIDES 42-49) -->
+        <!-- ==================================================== -->
+
+        <!-- SLIDE 42 -->
+        <div class="slide-pane" id="slide-42">
+            <div class="layout-grid-full">
+                <span class="section-tag">THỬ THÁCH TRẮC NGHIỆM: CÂU 01 / 08</span>
+                <h2 class="pane-title">MỐI QUAN HỆ GIỮA "PHÁP TRỊ" VÀ "ĐỨC TRỊ"</h2>
+                <p class="sub-lead">Mối quan hệ giữa "Pháp trị" và "Đức trị" trong Tư tưởng Hồ Chí Minh được hiểu như thế nào là đúng nhất?</p>
+                <div class="quiz-item" onclick="pickQuiz(this)">A. Pháp trị là nền tảng tuyệt đối; Đức trị chỉ là phương tiện tuyên truyền phụ trợ.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">B. Đức trị và Pháp trị là hai phương pháp hoàn toàn tách biệt, áp dụng riêng rẽ.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)" data-correct="true">C. Kết hợp nhuần nhuyễn: Pháp luật là "Đức" được thể chế hóa; còn "Đức" là gốc rễ nhân văn để pháp luật được tự giác thi hành.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">D. Tiếp thu nguyên bản học thuyết Pháp gia hà khắc của Thương Ưởng và Hàn Phi Tử.</div>
+                <button class="btn-reveal" onclick="revealQuiz(this)">Xem Đáp án & Phân tích</button>
+                <div class="quiz-alert">
+                    ✓ <strong>ĐÁP ÁN ĐÚNG LÀ C:</strong> Trong tư tưởng Hồ Chí Minh, Pháp luật là Đạo đức được thể chế hóa thành văn bản, còn Đạo đức là cái gốc để luật pháp được thi hành tự giác từ lương tâm.
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 43 -->
+        <div class="slide-pane" id="slide-43">
+            <div class="layout-grid-full">
+                <span class="section-tag">THỬ THÁCH TRẮC NGHIỆM: CÂU 02 / 08</span>
+                <h2 class="pane-title">BƯỚC NGOẶT CHUYỂN HÓA SANG TƯ TƯỞNG LẬP HIẾN</h2>
+                <p class="sub-lead">Sự kiện nào đánh dấu bước ngoặt Hồ Chí Minh chuyển từ lòng yêu nước truyền thống sang tư duy "Thượng tôn pháp quyền hiện đại"?</p>
+                <div class="quiz-item" onclick="pickQuiz(this)">A. Ra đi tìm đường cứu nước tại Bến cảng Nhà Rồng năm 1911.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)" data-correct="true">B. Gửi bản "Yêu sách của nhân dân An Nam" đòi quyền bình đẳng pháp lý đến Hội nghị Versailles năm 1919.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">C. Đọc Sơ thảo Luận cương của Lênin về vấn đề dân tộc năm 1920 tại Pháp.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">D. Soạn thảo Tuyên ngôn Độc lập tại số 48 Hàng Ngang năm 1945.</div>
+                <button class="btn-reveal" onclick="revealQuiz(this)">Xem Đáp án & Phân tích</button>
+                <div class="quiz-alert">
+                    ✓ <strong>ĐÁP ÁN ĐÚNG LÀ B:</strong> Bản Yêu sách 8 điểm gửi Hội nghị Versailles năm 1919 với câu thơ <em>"Trăm điều phải có thần linh pháp quyền"</em> đã chính thức xác lập tư tưởng cai trị bằng luật pháp thay vì sắc lệnh cai trị của thực dân.
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 44 -->
+        <div class="slide-pane" id="slide-44">
+            <div class="layout-grid-full">
+                <span class="section-tag">THỬ THÁCH TRẮC NGHIỆM: CÂU 03 / 08</span>
+                <h2 class="pane-title">TÍNH CHÍNH DANH VÀ HỢP HIẾN ĐẦU TIÊN CỦA NHÀ NƯỚC TA</h2>
+                <p class="sub-lead">Tính hợp hiến và hợp pháp cao nhất (De Jure) của nước Việt Nam mới sau 1945 được tạo lập qua giải pháp nào?</p>
+                <div class="quiz-item" onclick="pickQuiz(this)">A. Tổ chức phong trào Tuần lễ Vàng để tự chủ nguồn tài chính quốc gia.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">B. Ban hành sắc lệnh trừng trị các đảng phái phản động để ổn định an ninh.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)" data-correct="true">C. Tổ chức Cuộc Tổng tuyển cử bầu Quốc hội (06/01/1946) và ban hành bản Hiến pháp 1946.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">D. Ký kết Hiệp định Sơ bộ ngày 6/3/1946 với Chính phủ Pháp.</div>
+                <button class="btn-reveal" onclick="revealQuiz(this)">Xem Đáp án & Phân tích</button>
+                <div class="quiz-alert">
+                    ✓ <strong>ĐÁP ÁN ĐÚNG LÀ C:</strong> Cuộc Tổng tuyển cử 6/1/1946 và bản Hiến pháp 1946 đã trao quyền lực nhà nước cho nhân dân, tạo ra cơ sở pháp lý cao nhất khẳng định tính hợp hiến của chính quyền cách mạng trước toàn thế giới.
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 45 -->
+        <div class="slide-pane" id="slide-45">
+            <div class="layout-grid-full">
+                <span class="section-tag">THỬ THÁCH TRẮC NGHIỆM: CÂU 04 / 08</span>
+                <h2 class="pane-title">GÓC NHÌN ĐẠO ĐỨC VỀ GIAN LẬN HỌC THUẬT</h2>
+                <p class="sub-lead">Hành vi quay cóp hoặc đạo văn trong nghiên cứu xâm phạm nghiêm trọng nhất giá trị nào trong Tư tưởng Hồ Chí Minh?</p>
+                <div class="quiz-item" onclick="pickQuiz(this)">A. Vi phạm quy tắc sư phạm cá nhân của giảng viên đứng lớp.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)" data-correct="true">B. Xâm phạm chuẩn mực "Cần, Kiệm, Liêm, Chính" và làm tổn hại tính trung thực — gốc rễ của tinh thần pháp quyền.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">C. Đơn thuần là lỗi ứng xử thiếu tế nhị trong học đường.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">D. Vi phạm quyền bảo hộ tác phẩm kỹ thuật số.</div>
+                <button class="btn-reveal" onclick="revealQuiz(this)">Xem Đáp án & Phân tích</button>
+                <div class="quiz-alert">
+                    ✓ <strong>ĐÁP ÁN ĐÚNG LÀ B:</strong> Bác dạy: <em>"Liêm là trong sạch, không tham lam; Chính là ngay thẳng"</em>. Gian lận là biểu hiện của bất liêm và bất chính. Kẻ lách quy chế hôm nay sẽ rất dễ lách luật trục lợi, tham nhũng khi nắm quyền lực trong tương lai!
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 46 -->
+        <div class="slide-pane" id="slide-46">
+            <div class="layout-grid-full">
+                <span class="section-tag">THỬ THÁCH TRẮC NGHIỆM: CÂU 05 / 08</span>
+                <h2 class="pane-title">RANH GIỚI TỰ DO NGÔN LUẬN TRÊN MẠNG XÃ HỘI</h2>
+                <p class="sub-lead">Lấy danh nghĩa "Tự do ngôn luận" để vu khống hoặc xúc phạm danh dự người khác trên mạng là sai lầm ở điểm nào?</p>
+                <div class="quiz-item" onclick="pickQuiz(this)">A. Sai vì mạng xã hội chỉ là thế giới ảo, không có giá trị pháp lý.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)" data-correct="true">B. Sai vì đã tuyệt đối hóa quyền tự do của cá nhân mà tách rời nghĩa vụ pháp lý và xâm phạm quyền được bảo vệ phẩm giá của tha nhân.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">C. Không sai vì xã hội dân chủ cho phép nói bất cứ điều gì mình thích.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">D. Sai vì chỉ có báo chí mới được quyền bình luận xã hội.</div>
+                <button class="btn-reveal" onclick="revealQuiz(this)">Xem Đáp án & Phân tích</button>
+                <div class="quiz-alert">
+                    ✓ <strong>ĐÁP ÁN ĐÚNG LÀ B:</strong> Quyền luôn gắn liền với Nghĩa vụ. Tự do của mỗi cá nhân bị giới hạn bởi pháp luật và đạo đức; tự do của bạn dừng lại ở nơi danh dự, nhân phẩm của người khác bắt đầu.
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 47 -->
+        <div class="slide-pane" id="slide-47">
+            <div class="layout-grid-full">
+                <span class="section-tag">THỬ THÁCH TRẮC NGHIỆM: CÂU 06 / 08</span>
+                <h2 class="pane-title">KIỂM SOÁT QUYỀN LỰC VÀ GIẶC NỘI XÂM</h2>
+                <p class="sub-lead">Theo Hồ Chí Minh, "giặc nội xâm" nguy hiểm nhất đe dọa sự tồn vong của chế độ là gì, và giải pháp căn cơ ra sao?</p>
+                <div class="quiz-item" onclick="pickQuiz(this)">A. Thiếu ngân sách hoạt động; giải pháp là tăng cường các khoản thu thuế từ nhân dân.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)" data-correct="true">B. Tệ "Quan liêu, Tham ô, Lãng phí"; giải pháp là thượng tôn pháp luật nghiêm minh kết hợp phát huy quyền giám sát của nhân dân.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">C. Xung đột sắc tộc; giải pháp là xử lý kỷ luật kín trong nội bộ.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">D. Trình độ dân trí chưa đồng đều; giải pháp là tạm dừng quyền bầu cử của người dân.</div>
+                <button class="btn-reveal" onclick="revealQuiz(this)">Xem Đáp án & Phân tích</button>
+                <div class="quiz-alert">
+                    ✓ <strong>ĐÁP ÁN ĐÚNG LÀ B:</strong> Bác ví Tham ô, Lãng phí, Quan liêu là thứ "giặc ở trong lòng", nguy hiểm hơn cả súng đạn ngoại xâm. Trừng trị nghiêm khắc không vùng cấm đi đôi với quyền giám sát của nhân dân là giải pháp căn cơ.
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 48 -->
+        <div class="slide-pane" id="slide-48">
+            <div class="layout-grid-full">
+                <span class="section-tag">THỬ THÁCH TRẮC NGHIỆM: CÂU 07 / 08</span>
+                <h2 class="pane-title">VĂN HÓA GIAO THÔNG VÀ TÂM LÝ ĐỐI PHÓ</h2>
+                <p class="sub-lead">Hành vi người trẻ chỉ dừng xe trước đèn đỏ hoặc đội mũ bảo hiểm khi thấy Cảnh sát giao thông phản ánh điều gì?</p>
+                <div class="quiz-item" onclick="pickQuiz(this)">A. Phản ánh ý thức pháp lý tự giác cao độ và tinh thần tôn trọng lực lượng công vụ.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">B. Biểu hiện của sự thích ứng linh hoạt và thực tế với hoàn cảnh giao thông đô thị.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)" data-correct="true">C. Trạng thái tuân thủ mang tính cưỡng chế, đối phó bên ngoài — thất bại trong việc nội tâm hóa quy phạm pháp luật thành đạo đức công dân.</div>
+                <div class="quiz-item" onclick="pickQuiz(this)">D. Nhận thức đúng mực vì luật pháp chỉ có hiệu lực khi có lực lượng kiểm tra.</div>
+                <button class="btn-reveal" onclick="revealQuiz(this)">Xem Đáp án & Phân tích</button>
+                <div class="quiz-alert">
+                    ✓ <strong>ĐÁP ÁN ĐÚNG LÀ C:</strong> Tuân thủ chỉ vì sợ phạt tiền là sự thất bại trong việc hình thành văn hóa pháp quyền. Pháp quyền thực thụ đòi hỏi sự tự giác từ lương tri — dừng trước vạch đỏ ngay cả lúc đêm muộn vắng bóng người!
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 49 -->
+        <div class="slide-pane" id="slide-49">
+            <div class="layout-grid-full" style="text-align: center;">
+                <span class="section-tag" style="margin: 0 auto 12px auto;">CÂU HỎI TỔNG KẾT BÀI GIẢNG</span>
+                <h2 class="pane-title">CHUYỂN HÓA THÀNH "NĂNG LỰC CÔNG DÂN" THỰC THỤ</h2>
+                <p class="sub-lead">Đâu là thước đo chuẩn mực nhất chứng minh sinh viên đã thực sự tiếp thu Tư tưởng Hồ Chí Minh?</p>
+                <div style="max-width: 900px; margin: 0 auto; text-align: left;">
+                    <div class="quiz-item" onclick="pickQuiz(this)">A. Thuộc lòng từng điều khoản của bản Hiến pháp và đạt điểm 10 môn Lý luận chính trị.</div>
+                    <div class="quiz-item" onclick="pickQuiz(this)">B. Tích cực chia sẻ khẩu hiệu trên mạng xã hội nhưng trong đời thực vẫn vi phạm luật.</div>
+                    <div class="quiz-item" onclick="pickQuiz(this)" data-correct="true">C. Thấu hiểu giá trị của kỷ cương, hình thành thói quen tuân thủ tự giác từ những việc nhỏ nhất và kiên quyết bảo vệ lẽ phải trong đời sống.</div>
+                    <div class="quiz-item" onclick="pickQuiz(this)">D. Chỉ cần tập trung học kiếm tiền, việc thực thi luật pháp là của cơ quan nhà nước.</div>
+                    <button class="btn-reveal" onclick="revealQuiz(this)" style="display: block; margin: 15px auto;">Kiểm tra Kết quả Bài giảng</button>
+                    <div class="quiz-alert" style="text-align: left;">
+                        ✓ <strong>CHÍNH XÁC: ĐÁP ÁN C.</strong> Năng lực công dân chân chính không đo bằng bằng khen trên tường, mà đo bằng: Sự trung thực trong thi cử, dừng xe trước đèn đỏ lúc nửa đêm, văn hóa mạng văn minh và tinh thần phụng sự Tổ quốc!
+                    </div>
+                </div>
+                <p style="font-size: 1.15rem; font-weight: 700; color: var(--primary); margin-top: 25px;">
+                    🎉 CHÚC MỪNG BẠN ĐÃ HOÀN THÀNH XUẤT SẮC
+                </p>
+            </div>
+        </div>
+
+        <!-- SLIDE 50: LỜI CẢM ƠN -->
+        <div class="slide-pane thank-you-slide" id="slide-50">
+            <div class="layout-grid-full" style="text-align: center;">
+                <span class="section-tag" style="margin: 0 auto 24px auto;">NHÓM 7 • TƯ TƯỞNG HỒ CHÍ MINH</span>
+                <div style="font-size: 3.5rem; margin-bottom: 14px;">✦</div>
+                <h1 class="hero-title" style="font-size: clamp(2.4rem, 6vw, 5.5rem); line-height: 1.15; margin-bottom: 22px;">
+                    THANK YOU<br><span style="color: var(--accent);">FOR WATCHING</span>
+                </h1>
+                <div style="width: 130px; height: 3px; margin: 0 auto 24px; background: linear-gradient(90deg, transparent, var(--accent), transparent);"></div>
+                <h2 class="pane-title" style="margin-bottom: 14px;">CẢM ƠN ĐÃ THEO DÕI!</h2>
+                <p class="sub-lead" style="max-width: 760px; margin: 0 auto 24px;">
+                    Xin chân thành cảm ơn thầy cô và các bạn đã chú ý lắng nghe bài thuyết trình của Nhóm 7.
+                </p>
+                <p style="font-size: 1rem; color: #695F56; font-weight: 600;">
+                    Kính chúc thầy cô và các bạn luôn dồi dào sức khỏe & thành công!
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Minimal Footer -->
+    <footer class="deck-foot">
+        <div class="meter-text">
+            SLIDE <span id="slideCounter">1</span> / 50
+        </div>
+    </footer>
+</div>
+
+<script>
+    let activeIndex = 1;
+    const totalPanes = 50;
+
+    const timelineFill = document.getElementById('timelineFill');
+    const slideCounter = document.getElementById('slideCounter');
+
+    function renderSlide(idx) {
+        document.querySelectorAll('.slide-pane').forEach(el => el.classList.remove('active'));
+        const target = document.getElementById(`slide-${idx}`);
+        if (target) {
+            target.classList.add('active');
+            target.scrollTop = 0;
+        }
+
+        if (slideCounter) slideCounter.innerText = idx;
+        if (timelineFill) timelineFill.style.width = ((idx / totalPanes) * 100) + '%';
+    }
+
+    function stepForward() {
+        if (activeIndex < totalPanes) {
+            activeIndex++;
+            renderSlide(activeIndex);
+        }
+    }
+
+    function stepBackward() {
+        if (activeIndex > 1) {
+            activeIndex--;
+            renderSlide(activeIndex);
+        }
+    }
+
+    function toggleScreen() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen().catch(() => {});
+        } else if (document.exitFullscreen) {
+            document.exitFullscreen();
+        }
+    }
+
+    // Điều khiển bàn phím (Desktop / Laptop)
+    document.addEventListener('keydown', (e) => {
+        if (["ArrowRight", "ArrowDown", " ", "PageDown"].includes(e.key)) {
+            e.preventDefault();
+            stepForward();
+        } else if (["ArrowLeft", "ArrowUp", "PageUp"].includes(e.key)) {
+            e.preventDefault();
+            stepBackward();
+        } else if (e.key === "f" || e.key === "F") {
+            toggleScreen();
+        }
+    });
+
+    // Cảm ứng vuốt chạm (Mobile & iPad)
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchEndX = 0;
+    let touchEndY = 0;
+    const minHorizontalSwipe = 45;
+
+    document.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+        touchStartY = e.changedTouches[0].screenY;
+    }, { passive: true });
+
+    document.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        touchEndY = e.changedTouches[0].screenY;
+        handleSwipeGesture();
+    }, { passive: true });
+
+    function handleSwipeGesture() {
+        const deltaX = touchEndX - touchStartX;
+        const deltaY = touchEndY - touchStartY;
+
+        if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minHorizontalSwipe) {
+            if (deltaX < 0) {
+                stepForward();
+            } else {
+                stepBackward();
+            }
+        }
+    }
+
+    // ========================================================
+    // ÂM THANH CHÚC MỪNG & BÁO LỖI (WEB AUDIO API - OFFLINE)
+    // ========================================================
+    let audioCtx = null;
+    function getAudioContext() {
+        if (!audioCtx) {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        }
+        if (audioCtx.state === 'suspended') {
+            audioCtx.resume();
+        }
+        return audioCtx;
+    }
+
+    function playVictorySound() {
+        try {
+            const ctx = getAudioContext();
+            const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+            notes.forEach((freq, idx) => {
+                const osc = ctx.createOscillator();
+                const gain = ctx.createGain();
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(freq, ctx.currentTime + idx * 0.08);
+                
+                gain.gain.setValueAtTime(0, ctx.currentTime + idx * 0.08);
+                gain.gain.linearRampToValueAtTime(0.25, ctx.currentTime + idx * 0.08 + 0.02);
+                gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + idx * 0.08 + 0.45);
+                
+                osc.connect(gain);
+                gain.connect(ctx.destination);
+                osc.start(ctx.currentTime + idx * 0.08);
+                osc.stop(ctx.currentTime + idx * 0.08 + 0.46);
+            });
+        } catch(e) { console.warn("Audio blocked by browser policy", e); }
+    }
+
+    function playErrorSound() {
+        try {
+            const ctx = getAudioContext();
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(140, ctx.currentTime);
+            osc.frequency.linearRampToValueAtTime(80, ctx.currentTime + 0.25);
+
+            gain.gain.setValueAtTime(0.2, ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.25);
+
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            osc.start();
+            osc.stop(ctx.currentTime + 0.26);
+        } catch(e) { console.warn("Audio blocked by browser policy", e); }
+    }
+
+    // ========================================================
+    // PHÁO HOA CONFETTI TRÊN CANVAS
+    // ========================================================
+    const canvas = document.getElementById('confettiCanvas');
+    const cCtx = canvas.getContext('2d');
+    let confettiParticles = [];
+    let confettiTimer = null;
+
+    function resizeCanvas() {
+        if (!canvas) return;
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    function launchConfetti() {
+        const colors = ['#D4AF37', '#800018', '#2E7D32', '#00C853', '#FFD700', '#FF3D00', '#FFFFFF'];
+        confettiParticles = [];
+        const count = 90;
+
+        for (let i = 0; i < count; i++) {
+            confettiParticles.push({
+                x: window.innerWidth * 0.5 + (Math.random() - 0.5) * 350,
+                y: window.innerHeight * 0.5 + (Math.random() - 0.5) * 150,
+                size: Math.random() * 8 + 6,
+                color: colors[Math.floor(Math.random() * colors.length)],
+                vx: (Math.random() - 0.5) * 18,
+                vy: (Math.random() - 1.2) * 16,
+                rotation: Math.random() * 360,
+                rotSpeed: (Math.random() - 0.5) * 12,
+                opacity: 1
+            });
+        }
+
+        if (confettiTimer) cancelAnimationFrame(confettiTimer);
+        animateConfetti();
+    }
+
+    function animateConfetti() {
+        cCtx.clearRect(0, 0, canvas.width, canvas.height);
+        let hasAlive = false;
+
+        confettiParticles.forEach(p => {
+            p.x += p.vx;
+            p.y += p.vy;
+            p.vy += 0.45;
+            p.vx *= 0.98;
+            p.rotation += p.rotSpeed;
+            p.opacity -= 0.009;
+
+            if (p.opacity > 0) {
+                hasAlive = true;
+                cCtx.save();
+                cCtx.globalAlpha = Math.max(0, p.opacity);
+                cCtx.translate(p.x, p.y);
+                cCtx.rotate((p.rotation * Math.PI) / 180);
+                cCtx.fillStyle = p.color;
+                cCtx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.7);
+                cCtx.restore();
+            }
+        });
+
+        if (hasAlive) {
+            confettiTimer = requestAnimationFrame(animateConfetti);
+        } else {
+            cCtx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+    }
+
+    // ========================================================
+    // TƯƠNG TÁC TRẮC NGHIỆM
+    // ========================================================
+    function pickQuiz(item) {
+        const parent = item.parentElement;
+        const alertBox = parent.querySelector('.quiz-alert');
+        
+        parent.querySelectorAll('.quiz-item').forEach(el => {
+            el.classList.remove('answered-correct', 'answered-wrong', 'selected');
+        });
+
+        const isCorrect = item.getAttribute('data-correct') === 'true';
+
+        if (isCorrect) {
+            item.classList.add('answered-correct');
+            playVictorySound();
+            launchConfetti();
+            if (alertBox) alertBox.style.display = 'block';
+        } else {
+            item.classList.add('answered-wrong');
+            playErrorSound();
+        }
+    }
+
+    function revealQuiz(btn) {
+        const parent = btn.parentElement;
+        const alertBox = parent.querySelector('.quiz-alert');
+        if (alertBox) {
+            alertBox.style.display = 'block';
+        }
+        const correctItem = parent.querySelector('.quiz-item[data-correct="true"]');
+        if (correctItem && !correctItem.classList.contains('answered-correct')) {
+            correctItem.classList.add('answered-correct');
+        }
+    }
+
+    // Khởi tạo trang trình chiếu ban đầu
+    renderSlide(1);
+</script>
+
+</body>
+</html>
